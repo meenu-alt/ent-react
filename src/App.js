@@ -10,6 +10,7 @@ import "./assets/css/jquery.mCustomScrollbar.min.css";
 import "./assets/css/magnific-popup.min.css";
 import "./assets/css/owl.carousel.min.css";
 import "./assets/css/progressbar.css";
+import './js/custom.js'
 
 
 function App() {
