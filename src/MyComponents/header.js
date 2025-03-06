@@ -1,4 +1,6 @@
 import React from 'react'
+import logo from "../assets/images/logo.webp";
+import "./App.css";
 
 
 export default function header() {
@@ -11,7 +13,7 @@ export default function header() {
                 <div ClassName="pq-header-top-wrapper">
                    <div ClassName="pq-site-logo">
                       <a ClassName="navbar-brand" href="index.html">
-                         <img ClassName="img-fluid logo" src="images/logo.webp" alt="medicate"/>
+                         <img ClassName="img-fluid logo" src={logo} alt="medicate"/>
                       </a>
                    </div>
                    <div ClassName="pq-top-info-content">
