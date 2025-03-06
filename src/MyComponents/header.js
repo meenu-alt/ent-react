@@ -13,7 +13,6 @@ import "../assets/css/owl.carousel.min.css";
 import "../assets/css/progressbar.css";
 
 
-
 export default function header() {
   return (
     <div className="pq-bottom-header">
