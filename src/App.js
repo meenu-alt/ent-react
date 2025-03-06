@@ -11,6 +11,7 @@ import "./assets/css/magnific-popup.min.css";
 import "./assets/css/owl.carousel.min.css";
 import "./assets/css/progressbar.css";
 
+
 function App() {
   return (
     <>
