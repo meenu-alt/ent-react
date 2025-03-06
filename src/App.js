@@ -1,14 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
-import header from './MyComponents/header';
+import logo from "./logo.svg";
+import "./App.css";
+import Header from "./MyComponents/header"; // Ensure the correct path
 
 function App() {
   return (
-    // <div className="App">
-    //   {8+9}
-    // </div>
     <>
-    <header/>
+      <Header /> {/* Use the Header component */}
+      
     </>
   );
 }
