@@ -472,7 +472,7 @@ section {
   width: 100%;
   height: 100%;
   opacity: 0.1;
-  /* background: url('/images/bg-1.png'); */
+  /* background: url('../assets/images/bg-1.png'); */
   background-position: center center;
   background-repeat: repeat;
   background-size: 60% auto;
@@ -535,7 +535,7 @@ section {
   width: 100%;
   height: 100%;
   opacity: 1;
-  background: url('/images/medical-skills/1.jpg');
+  background: url('../assets/images/medical-skills/1.jpg');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -552,7 +552,7 @@ section {
   width: 100%;
   height: 100%;
   opacity: 0.1;
-  background: url('/images/Whoweare/1.png');
+  background: url('../assets/images/Whoweare/1.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6122,7 +6122,7 @@ Process Step
   width: 100%;
   height: 100%;
   opacity: 1;
-  background: url('/images/process/bg.png');
+  background: url('../assets/images/process/bg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6137,7 +6137,7 @@ Process Step
   width: 100%;
   height: 100%;
   opacity: 1;
-  background: url('/images/Whoweare/1.png');
+  background: url('../assets/images/Whoweare/1.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: auto;
@@ -6556,7 +6556,7 @@ Video Popup
 }
 
 .pq-pop-video-2 {
-  background: url('/images/video-img-2.jpg');
+  background: url('../assets/images/video-img-2.jpg');
   padding: 220px 0px;
   background-repeat: no-repeat;
 }
@@ -7605,7 +7605,7 @@ Custom Css
   width: 100%;
   height: 100%;
   opacity: 0.2;
-  background: url('/images/bg-1.png');
+  background: url('../assets/images/bg-1.png');
   background-position: center right;
   background-repeat: repeat;
   background-size: 50% auto;
