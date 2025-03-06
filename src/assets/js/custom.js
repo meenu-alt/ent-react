@@ -32,7 +32,7 @@ Design and Developed by: PeacefulQode
 
 
 (function (jQuery) {
-   "use strict";
+   
    jQuery(window).on('load', function (e) {
 
 

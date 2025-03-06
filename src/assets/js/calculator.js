@@ -1,5 +1,5 @@
 (function (jQuery) {
-    "use strict";
+    
     var registerDependencies = function () {
         // if (null != PluginJsConfig && null != PluginJsConfig.js_dependencies) {
         //     var js_dependencies = PluginJsConfig.js_dependencies;
