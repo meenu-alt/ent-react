@@ -4,9 +4,12 @@ import header from './MyComponents/header';
 
 function App() {
   return (
-    <div className="App">
-      {8+9}
-    </div>
+    // <div className="App">
+    //   {8+9}
+    // </div>
+    <>
+    <header/>
+    </>
   );
 }
 
