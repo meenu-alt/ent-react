@@ -2831,7 +2831,7 @@ footer#pq-footer .pq-footer-style-1 {
 footer#pq-footer .pq-footer-top {
   padding: 70px 0 0;
   position: relative;
-  z-index: 9;
+  z-index: 9; 
 }
 
 footer#pq-footer .pq-copyright-footer {
