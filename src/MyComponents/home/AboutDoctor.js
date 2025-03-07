@@ -1,4 +1,5 @@
 import React from 'react';
+import aboutimg from "../../assets/images/About-us/2.jpg";
 
 export default function AboutDoctor() {
   return (
@@ -36,7 +37,7 @@ export default function AboutDoctor() {
             <div className="col-lg-6">
               <div className="about-us-img">
                 <img
-                  src="images/About-us/2.jpg"
+                  src={aboutimg}
                   className="img-fluid pq-image1 wow fadeInRight"
                   alt="home"
                 />
