@@ -33,13 +33,13 @@ export default function Header() {
                   <div className="pq-header-contact ">
                      <ul>
                         <li>
-                           <a href="tel:+1800001658"><i className="fas fa-phone"></i>
-                              <span> +1800-001-658</span>
+                           <a href="tel:09871150032"><i className="fas fa-phone"></i>
+                              <span> +91 9871150032</span>
                            </a>
                         </li>
                         <li>
-                           <a href="tel:+1800001658"><i className="fas fa-phone"></i>
-                              <span> +1800-001-658</span>
+                           <a href="tel:09205585295"><i className="fas fa-phone"></i>
+                              <span> +91 9205585295</span>
                            </a>
                         </li>
                         <li>
