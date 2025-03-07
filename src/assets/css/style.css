@@ -569,7 +569,7 @@ Button Core
 .pq-button {
   position: relative;
   width: auto;
-  background: var(--primary-color);
+  background: #00975e;
   color: var(--white-color);
   letter-spacing: 0.04em;
   font-family: var(--title-fonts);
@@ -8069,4 +8069,52 @@ p.copyright {
 
 section.get-in-touch {
   padding-bottom: 75px;
+}
+
+
+h3.text-center.mb-3.pq-section-title {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 56px;
+  z-index: 9;
+  padding: 0;
+  margin: 0 0;
+  position: relative;
+  display: block;
+}
+
+section.followyt {
+  background: #F7FDFA;
+  padding: 55px 0;
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Scrollbar Thumb */
+::-webkit-scrollbar-thumb {
+  background: #4CAF50;
+  /* Green color */
+  border-radius: 10px;
+}
+
+/* Scrollbar Thumb on Hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #388E3C;
+  /* Darker green */
+}
+
+/* Scrollbar Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  /* Light grey */
+  border-radius: 10px;
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #4CAF50 #f1f1f1;
 }
