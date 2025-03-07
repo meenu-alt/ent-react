@@ -4736,8 +4736,8 @@ fieldset:disabled .btn {
 .list-group-item.active {
   z-index: 2;
   color: var(--bs-list-group-active-color);
-  background-color: var(--bs-list-group-active-bg);
-  border-color: var(--bs-list-group-active-border-color);
+  background-color: #7ac49b;
+  border-color: #7ac49b;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
