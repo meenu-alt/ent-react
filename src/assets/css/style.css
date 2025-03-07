@@ -1651,7 +1651,7 @@ header#pq-header.pq-header-sticky {
 
 /*============ Header Top Bar============*/
 header#pq-header .pq-top-header {
-  background: var(--primary-dark-color);
+  background: #7ac49b;
   padding: 0;
   font-size: 14px;
 }

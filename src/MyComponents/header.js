@@ -43,7 +43,7 @@ export default function Header() {
                            </a>
                         </li>
                         <li>
-                           <a href="mailto:info@peacefulthemes.com"><i className="fas fa-envelope"></i><span>info@peacefulthemes.com</span></a>
+                           <a href="mailto:entdelhi@gmail.com"><i className="fas fa-envelope"></i><span>entdelhi@gmail.com</span></a>
                         </li>
                      </ul>
                   </div>
@@ -113,10 +113,12 @@ export default function Header() {
                               <i className="ti-headphone-alt" aria-hidden="true"></i>
                            </div>
                         </div>
-                        <div className="info-icon-content">
-                           <h4><a href="tel:+1800-001-658"> +1800-001-658</a></h4>
-                           <p>Mon-Fri: 6AM - 10PM</p>
-                        </div>
+                        <a className="pq-button pq-button-flat" href="about-us.html">
+                <div className="pq-button-block">
+                  <span className="pq-button-text">Book Appointment</span>{' '}
+                
+                </div>
+              </a>
                      </div>
                      <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <i className="fas fa-bars"></i>
