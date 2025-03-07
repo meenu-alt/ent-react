@@ -1,4 +1,9 @@
 ﻿/* @import url("../../../../css2"); */
+@import url('https://fonts.googleapis.com/css2?family=Teachers&display=swap');
+
+body {
+  font-family: 'Teachers', sans-serif !important;
+}
 
 :root {
   --primary-color: #4C906F;
@@ -7,8 +12,8 @@
   --secondary-color: #666666;
   --grey-color: #f4f6f9;
   --white-color: #ffffff;
-  --body-fonts: "Montserrat", sans-serif;
-  --title-fonts: "Quicksand", sans-serif;
+  --body-fonts: 'Teachers',sans-serif !important;
+  --title-fonts: 'Teachers',sans-serif !important;
 }
 
 ::-moz-selection {
@@ -1768,8 +1773,9 @@ header#pq-header .pq-bottom-header .navbar .navbar-nav li a {
   color: var(--dark-color);
   font-weight: 600;
   font-size: 14px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   line-height: 22px;
+  text-decoration: none;
 }
 
 header#pq-header .pq-bottom-header .navbar .navbar-nav li a:focus,
