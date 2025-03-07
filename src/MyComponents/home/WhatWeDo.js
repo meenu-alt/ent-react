@@ -1,22 +1,6 @@
 import React from "react";
-import img1 from "../../assets/images/service.png";
 
 export default function WhatWeDo() {
-  const surgeries = [
-    { image: img1, alt: "Tonsillectomy" },
-    { image: img1, alt: "Adenoidectomy" },
-    { image: img1, alt: "Myringoplasty" },
-    { image: img1, alt: "Myringotomy" },
-    { image: img1, alt: "Septoplasty" },
-    { image: img1, alt: "Turbinectomy" },
-    { image: img1, alt: "FESS" },
-    { image: img1, alt: "Nasal Polypectomy" },
-    { image: img1, alt: "Snoring & Sleep Apnea Surgery" },
-    { image: img1, alt: "Mastoidectomy" },
-    { image: img1, alt: "MLS" },
-    { image: img1, alt: "Removal of Neck Swelling" },
-  ];
-
   return (
     <section className="pq-home2-about">
       <div className="container">
@@ -42,14 +26,59 @@ export default function WhatWeDo() {
             </div>
           </div>
         </div>
-        <div className="row mt-4 text-center">
-          {surgeries.map((surgery, index) => (
-            <div key={index} className="col-md-3 col-6">
-              <div className="surgery-box">
-                <img src={surgery.image} alt={surgery.alt} />
+        <div className="service">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-6 col-lg-4 col-xl-3 pq-lg-border-bottom pq-lg-border-right">
+                <div className="pq-fancy-box pq-style-1 text-center">
+                  <div className="pq-fancy-box-icon"><i className="flaticon-doctor-1"></i></div>
+                  <div className="pq-fancy-box-info">
+                    <h5 className="pq-fancy-box-title">Angioplasty</h5>
+                    <p className="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab.</p>
+                    <a className="pq-button pq-button-link" href="angioplasty-services.html">
+                      <div className="pq-button-block"> <span className="pq-button-text">Read More</span> <i className="ion ion-plus-round"></i> </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 col-xl-3 pq-lg-border-bottom pq-lg-border-right">
+                <div className="pq-fancy-box pq-style-1 text-center">
+                  <div className="pq-fancy-box-icon"><i className="flaticon-care"></i></div>
+                  <div className="pq-fancy-box-info">
+                    <h5 className="pq-fancy-box-title">Cardiology</h5>
+                    <p className="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab.</p>
+                    <a className="pq-button pq-button-link" href="cardiology-services.html">
+                      <div className="pq-button-block"> <span className="pq-button-text">Read More</span> <i className="ion ion-plus-round"></i> </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 col-xl-3 pq-lg-border-bottom pq-lg-border-right">
+                <div className="pq-fancy-box pq-style-1 text-center">
+                  <div className="pq-fancy-box-icon"><i className="flaticon-examination"></i></div>
+                  <div className="pq-fancy-box-info">
+                    <h5 className="pq-fancy-box-title">Dental</h5>
+                    <p className="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab.</p>
+                    <a className="pq-button pq-button-link" href="dental-services.html">
+                      <div className="pq-button-block"> <span className="pq-button-text">Read More</span> <i className="ion ion-plus-round"></i> </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 col-xl-3 pq-lg-border-bottom pq-lg-border-right">
+                <div className="pq-fancy-box pq-style-1 text-center">
+                  <div className="pq-fancy-box-icon"><i className="flaticon-syringe"></i></div>
+                  <div className="pq-fancy-box-info">
+                    <h5 className="pq-fancy-box-title">Endocrinology</h5>
+                    <p className="pq-fancybox-description">There are many variations of pas of Lorem Ipsum availab.</p>
+                    <a className="pq-button pq-button-link" href="endocrinology-services.html">
+                      <div className="pq-button-block"> <span className="pq-button-text">Read More</span> <i className="ion ion-plus-round"></i> </div>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
-          ))}
+          </div>
         </div>
       </div>
     </section>
