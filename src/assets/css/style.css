@@ -2826,9 +2826,8 @@ footer#pq-footer:before {
 }
 
 footer#pq-footer .pq-footer-style-1 {
-  /* background: var(--primary-dark-color); */
+  background: #F7FDFA !important;
   color: var(--white-color);
-  background:#F7FDFA ;
 }
 
 footer#pq-footer .pq-footer-top {
