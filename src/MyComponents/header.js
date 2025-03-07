@@ -88,7 +88,7 @@ export default function Header() {
                       <a className="navbar-brand" href="index.html">
                         <img
                           className="img-fluid logo"
-                          src="images/logo.webp"
+                          src={logo}
                           alt="medicate"
                         />
                       </a>
@@ -353,6 +353,16 @@ export default function Header() {
                           </div>
                         </div>
                       </div>
+                      <button
+                        className="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent"
+                        aria-controls="navbarSupportedContent"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i className="fas fa-bars"></i>
+                      </button>
                     </nav>
                   </div>
                 </div>
