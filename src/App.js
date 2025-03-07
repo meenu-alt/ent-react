@@ -6,6 +6,8 @@ import AboutDoctor from "./MyComponents/home/AboutDoctor.js"
 import Banner from "./MyComponents/home/Banner.js";
 import WhatWeDo from "./MyComponents/home/WhatWeDo.js";
 import Surgeries from "./MyComponents/home/Surgeries.js";
+import Blogs from "./MyComponents/home/Blogs.js";
+import GetInTouch from "./MyComponents/home/GetInTouch.js";
 
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <AboutDoctor />
       <WhatWeDo />
       <Surgeries />
+      <Blogs />
+      <GetInTouch />
       <Footer />
     </>
   );
