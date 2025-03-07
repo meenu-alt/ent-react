@@ -17,11 +17,11 @@ export default function Footer() {
   return (
     <div>
       <footer id="pq-footer">
-        <div class="pq-footer-style-1">
-          <div class="pq-footer-top container">
-            <div class="row align-items-center">
-              <div class="col-lg-12">
-                <div class="pq-subscribe-details">
+        <div className="pq-footer-style-1">
+          <div className="pq-footer-top container">
+            <div className="row align-items-center">
+              <div className="col-lg-12">
+                <div className="pq-subscribe-details">
                   <h5>Subs To News Letter</h5>
                   <p>
                     Consetetur dolor sit amet, consetetur sadipscing elitr, sed
@@ -29,18 +29,18 @@ export default function Footer() {
                   </p>
                 </div>
               </div>
-              <div class="col-lg-12 align-self-center">
-                <div class="pq-subscribe-from">
-                  <form id="form" class="form">
-                    <div class="form-fields">
+              <div className="col-lg-12 align-self-center">
+                <div className="pq-subscribe-from">
+                  <form id="form" className="form">
+                    <div className="form-fields">
                       <input
-                        class="w-100 pq-bg-transparent"
+                        className="w-100 pq-bg-transparent"
                         type="email"
                         name="EMAIL"
                         placeholder="Enter Your Email"
                         required=""
                       />
-                      <input class="" type="submit" value="Sign up" />
+                      <input className="" type="submit" value="Sign up" />
                     </div>
                   </form>
                   <p>We’ll never share your email with anyone else.</p>
@@ -48,27 +48,27 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div class="pq-subscribe align-items-center">
-            <div class="container">
-              <div class="row align-items-center">
-                <div class="col-lg-12">
-                  <div class="pq-subscribe-bg">
-                    <div class="container">
-                      <div class="row">
-                        <div class="col-xl-2 col-md-2">
-                          <div class="pq-footer-block">
+          <div className="pq-subscribe align-items-center">
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="col-lg-12">
+                  <div className="pq-subscribe-bg">
+                    <div className="container">
+                      <div className="row">
+                        <div className="col-xl-2 col-md-2">
+                          <div className="pq-footer-block">
                             <img
                               src={logo}
-                              class="pq-footer-logo img-fluid"
+                              className="pq-footer-logo img-fluid"
                               alt="medicate-footer-logo"
                             />
                           </div>
                         </div>
-                        <div class="col-xl-7  col-md-7">
-                          <h4 class="footer-title">Quick Links</h4>
-                          <div class="row">
-                            <div class="col-xl-4 col-md-4">
-                              <div class="spacce">
+                        <div className="col-xl-7  col-md-7">
+                          <h4 className="footer-title">Quick Links</h4>
+                          <div className="row">
+                            <div className="col-xl-4 col-md-4">
+                              <div className="spacce">
                                 <ul>
                                   <li>
                                     <a href="about-us.html">Tonsillectomy </a>
@@ -85,8 +85,8 @@ export default function Footer() {
                                 </ul>
                               </div>
                             </div>
-                            <div class="col-xl-4 col-md-4">
-                              <div class="spacce">
+                            <div className="col-xl-4 col-md-4">
+                              <div className="spacce">
                                 <ul>
                                   <li>
                                     <a href="about-us.html">Septoplasty </a>
@@ -105,8 +105,8 @@ export default function Footer() {
                                 </ul>
                               </div>
                             </div>
-                            <div class="col-xl-4 col-md-4">
-                              <div class="spacce">
+                            <div className="col-xl-4 col-md-4">
+                              <div className="spacce">
                                 <ul>
                                   <li>
                                     <a href="about-us.html">
@@ -131,11 +131,11 @@ export default function Footer() {
                             </div>
                           </div>
                         </div>
-                        {/* <div class="col-xl-6  col-md-6">
-                                       <div class="pq-footer-block">
-                                          <h4 class="footer-title">Quick Links</h4>
-                                          <div class="menu-useful-links-container">
-                                             <ul id="menu-useful-links" class="menu">
+                        {/* <div className="col-xl-6  col-md-6">
+                                       <div className="pq-footer-block">
+                                          <h4 className="footer-title">Quick Links</h4>
+                                          <div className="menu-useful-links-container">
+                                             <ul id="menu-useful-links" className="menu">
                                                 <li><a href="about-us.html">About Us</a></li>
                                                 <li><a href="contact-us.html">Contact Us</a></li>
                                                 <li><a href="our-services.html">Our Services</a></li>
@@ -151,29 +151,29 @@ export default function Footer() {
                                        </div>
                                     </div> */}
 
-                        <div class="col-xl-3  col-md-3">
-                          <div class="pq-footer-block">
-                            <h4 class="footer-title">Contact Us</h4>
-                            <div class="row">
-                              <div class="col-sm-12">
-                                <ul class="pq-contact">
+                        <div className="col-xl-3  col-md-3">
+                          <div className="pq-footer-block">
+                            <h4 className="footer-title">Contact Us</h4>
+                            <div className="row">
+                              <div className="col-sm-12">
+                                <ul className="pq-contact">
                                   <li>
                                     {" "}
                                     <a href="tel:+1800001658">
-                                      <i class="fas fa-phone"></i>
+                                      <i className="fas fa-phone"></i>
                                       <span> +1800-001-658</span>
                                     </a>{" "}
                                   </li>
                                   <li>
                                     {" "}
                                     <a href="mailto:info@peacefulthemes.com">
-                                      <i class="fas fa-envelope"></i>
+                                      <i className="fas fa-envelope"></i>
                                       <span>info@peacefulthemes.com</span>
                                     </a>
                                   </li>
                                   <li>
                                     {" "}
-                                    <i class="fas fa-map-marker"></i>{" "}
+                                    <i className="fas fa-map-marker"></i>{" "}
                                     <span>
                                       Themeforest, Envato HQ 24 Fifth st., Los
                                       Angeles, USA{" "}
@@ -184,27 +184,27 @@ export default function Footer() {
                             </div>
                           </div>
                         </div>
-                        <div class="col-xl-12 col-md-12 ">
-                          <div class="pq-footer-social">
+                        <div className="col-xl-12 col-md-12 ">
+                          <div className="pq-footer-social">
                             <ul>
                               <li>
                                 <a href="#">
-                                  <i class="fab fa-facebook-f"></i>
+                                  <i className="fab fa-facebook-f"></i>
                                 </a>
                               </li>
                               <li>
                                 <a href="#">
-                                  <i class="fab fa-google-plus-g"></i>
+                                  <i className="fab fa-google-plus-g"></i>
                                 </a>
                               </li>
                               <li>
                                 <a href="#">
-                                  <i class="fab fa-instagram"></i>
+                                  <i className="fab fa-instagram"></i>
                                 </a>
                               </li>
                               <li>
                                 <a href="#">
-                                  <i class="fab fa-pinterest"></i>
+                                  <i className="fab fa-pinterest"></i>
                                 </a>
                               </li>
                             </ul>
@@ -217,12 +217,12 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div class="pq-copyright-footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-md-12 text-center ">
+          <div className="pq-copyright-footer">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-12 text-center ">
                   {" "}
-                  <span class="pq-copyright">
+                  <span className="pq-copyright">
                     {" "}
                     Copyright 2022 medicate All Rights Reserved
                   </span>{" "}
