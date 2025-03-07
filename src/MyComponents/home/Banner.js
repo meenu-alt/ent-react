@@ -1,4 +1,5 @@
 import React from "react";
+import banner from "../../assets/rev/assets/1-51.jpg"
 
 export default function Banner() {
   return (
@@ -29,7 +30,7 @@ export default function Banner() {
               data-out="a:false;"
             >
               <img
-                src="rev/assets/1-51.jpg"
+                src={banner}
                 alt="Slide Background"
                 title="1-51.jpg"
                 className="rev-slidebg tp-rs-img"
@@ -149,5 +150,6 @@ export default function Banner() {
         </rs-module>
       </rs-module-wrap>
     </div>
+    
   );
 }
