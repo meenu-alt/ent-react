@@ -1,88 +1,87 @@
-import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/navigation";
+import React, { useState } from "react";
+import "../../assets/css/bootstrap.min.css";
 
-const PatientReviews = () => {
+const videoData = [
+  {
+    id: 1,
+    title: "Difference Between Migraine and Sinus Headache",
+    thumbnail: "https://via.placeholder.com/300", // Replace with actual thumbnail
+    videoUrl: "https://www.youtube.com/embed/VIDEO_ID_1",
+  },
+  {
+    id: 2,
+    title: "What is Septoplasty Surgery?",
+    thumbnail: "https://via.placeholder.com/300",
+    videoUrl: "https://www.youtube.com/embed/VIDEO_ID_2",
+  },
+  {
+    id: 3,
+    title: "Use of Audocentric Hearing Aid",
+    thumbnail: "https://via.placeholder.com/300",
+    videoUrl: "https://www.youtube.com/embed/VIDEO_ID_3",
+  },
+  {
+    id: 4,
+    title: "Types of Septoplasty Surgery",
+    thumbnail: "https://via.placeholder.com/300",
+    videoUrl: "https://www.youtube.com/embed/VIDEO_ID_4",
+  },
+];
+
+const YouTubeSection = () => {
+  const [selectedVideo, setSelectedVideo] = useState(videoData[0]); // Default video
+
   return (
-    <section className="our-work">
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-12">
-            <div className="pq-section pq-style-1 text-center">
-              <h5 className="pq-section-title">PATIENT'S REVIEWS</h5>
-            </div>
+    <div className="container my-5">
+      <h2 className="text-center mb-4 fw-bold">FOLLOW US ON YOUTUBE</h2>
+      <div className="row">
+        {/* Left Side - Main Video */}
+        <div className="col-md-7">
+          <div className="video-container p-3 bg-white shadow rounded">
+            <iframe
+              width="100%"
+              height="350"
+              src={selectedVideo.videoUrl}
+              title="YouTube video"
+              frameBorder="0"
+              allowFullScreen
+              className="rounded"></iframe>
+            <h5 className="mt-3 text-success">{selectedVideo.title}</h5>
           </div>
-          <div className="col-lg-12">
-            <Swiper
-              modules={[Navigation]}
-              spaceBetween={30}
-              slidesPerView={4}
-              navigation
-              breakpoints={{
-                320: { slidesPerView: 1 },
-                768: { slidesPerView: 3 },
-                1024: { slidesPerView: 4 },
-              }}
-              loop={true}
-              autoplay={{ delay: 3000 }}>
-              {[
-                "VIDEO_ID1",
-                "VIDEO_ID2",
-                "VIDEO_ID3",
-                "VIDEO_ID4",
-                "VIDEO_ID5",
-                "VIDEO_ID6",
-                "VIDEO_ID7",
-              ].map((videoId, index) => (
-                <SwiperSlide key={index}>
-                  <div className="pq-portfoliobox pq-style-1">
-                    <div className="pq-portfolio-block">
-                      <div
-                        className="pq-portfolio-img"
-                        style={{
-                          position: "relative",
-                          paddingTop: "177.77%",
-                          overflow: "hidden",
-                        }}>
-                        <iframe
-                          src={`https://www.youtube.com/embed/${videoId}`}
-                          frameBorder="0"
-                          allowFullScreen
-                          style={{
-                            position: "absolute",
-                            top: 0,
-                            left: 0,
-                            width: "100%",
-                            height: "100%",
-                          }}></iframe>
-                      </div>
-                    </div>
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
+        </div>
 
-            <style>
-              {`
-                .swiper-button-prev,
-                .swiper-button-next {
-                  background: rgba(0, 0, 0, 0.5);
-                  color: white;
-                  border: none;
-                  padding: 10px;
-                  border-radius: 50%;
-                  font-size: 20px;
-                  cursor: pointer;
-                }
-              `}
-            </style>
+        {/* Right Side - Video List */}
+        <div className="col-md-5">
+          <div
+            className="video-list-container p-3 bg-white shadow rounded overflow-auto"
+            style={{ maxHeight: "400px" }}>
+            {videoData.map((video) => (
+              <div
+                key={video.id}
+                className="d-flex align-items-center mb-3 p-2 video-item rounded"
+                style={{
+                  cursor: "pointer",
+                  background:
+                    selectedVideo.id === video.id ? "#eafaf1" : "white",
+                }}
+                onClick={() => setSelectedVideo(video)}>
+                <img
+                  src={video.thumbnail}
+                  alt={video.title}
+                  className="img-fluid rounded me-3"
+                  style={{ width: "80px" }}
+                />
+                <div>
+                  <h6 className="text-success mb-0">{video.title}</h6>
+                  <small className="text-muted">Click to watch</small>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
-export default PatientReviews;
+export default YouTubeSection;
