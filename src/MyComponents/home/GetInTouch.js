@@ -24,7 +24,7 @@ export default function GetInTouch() {
                             name="your-name"
                             id="first-name"
                             className="name-field"
-                            placeholder="Your Name"
+                            placeholder="Name"
                             required
                           />
                         </div>
@@ -34,7 +34,7 @@ export default function GetInTouch() {
                             name="your-gender"
                             id="gender"
                             className="gender-field"
-                            placeholder="Gender"
+                            placeholder="Email"
                             required
                           />
                         </div>
@@ -54,7 +54,7 @@ export default function GetInTouch() {
                             name="your-email"
                             id="e-mail"
                             className="e-mail-field"
-                            placeholder="Your Email"
+                            placeholder="How did you find us"
                             required
                           />
                         </div>
@@ -75,7 +75,7 @@ export default function GetInTouch() {
               <div className="col-xl-6 ps-xl-4 mt-4 mt-xl-0 pq-p-45">
                 <div className="pq-section pq-style-1 text-left">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.5523063800465!2d77.1001897!3d28.7030359!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x457337d44efc2e7d%3A0x15c2d6e26dcaa6e1!2sPerformdigi%20Monetize!5e0!3m2!1sen!2sin!4v1741166366670!5m2!1sen!2sin"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3504.1814325306223!2d77.15069767613537!3d28.564314087174107!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1dac3cbaeea1%3A0xda530ec64e7913b3!2sDr%20Rajesh%20Bhardwaj%20-%20Best%20ENT%20Clinic!5e0!3m2!1sen!2sin!4v1741353822175!5m2!1sen!2sin"
                     width="600"
                     height="450"
                     style={{ border: 0 }}
@@ -84,6 +84,7 @@ export default function GetInTouch() {
                     referrerPolicy="no-referrer-when-downgrade"
                     title="Google Maps"
                   ></iframe>
+
                 </div>
               </div>
             </div>
