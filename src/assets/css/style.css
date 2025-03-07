@@ -1686,8 +1686,9 @@ header#pq-header .pq-top-header .pq-header-contact ul li i {
 header#pq-header .pq-top-header .pq-header-contact ul li a {
   color: var(--white-color);
   font-family: var(--title-fonts);
-  font-weight: 600;
-}
+  font-weight: 500;
+  font-size: 16px;
+} 
 
 header#pq-header .pq-top-header .pq-header-contact ul li a:hover {
   color: var(--white-color);
@@ -1771,8 +1772,8 @@ header#pq-header .pq-bottom-header .navbar .navbar-nav li:last-child {
 
 header#pq-header .pq-bottom-header .navbar .navbar-nav li a {
   color: var(--dark-color);
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 20px;
   /* text-transform: uppercase; */
   line-height: 22px;
   text-decoration: none;
