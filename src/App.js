@@ -8,6 +8,7 @@ import WhatWeDo from "./MyComponents/home/WhatWeDo.js";
 import Testimonials from "./MyComponents/home/Testimonials.js";
 import PatientReviews from "./MyComponents/home/PatientReview.js";
 import FollowYt from "./MyComponents/home/FollowYt.js";
+import Faq from "./MyComponents/home/Faq.js";
 import Blogs from "./MyComponents/home/Blogs.js";
 import GetInTouch from "./MyComponents/home/GetInTouch.js";
 
@@ -22,6 +23,7 @@ function App() {
       <Testimonials />
       <PatientReviews />
       <FollowYt />
+      <Faq />
       <Blogs />
       <GetInTouch />
       <Footer />

@@ -8118,3 +8118,7 @@ section.followyt {
   scrollbar-width: thin;
   scrollbar-color: #4CAF50 #f1f1f1;
 }
+
+.pq-section.pq-style-1.text-center {
+  margin-top: 0;
+}
