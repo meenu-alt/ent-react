@@ -55,7 +55,7 @@ export default function Footer() {
                   <div className="pq-subscribe-bg">
                     <div className="container">
                       <div className="row">
-                        <div className="col-xl-2 col-md-2">
+                        <div className="col-xl-3 col-md-2">
                           <div className="pq-footer-block">
                             <img
                               src={logo}
@@ -64,10 +64,10 @@ export default function Footer() {
                             />
                           </div>
                         </div>
-                        <div className="col-xl-7  col-md-7">
+                        <div className="col-xl-6  col-md-7">
                           <h4 className="footer-title">Quick Links</h4>
                           <div className="row">
-                            <div className="col-xl-4 col-md-4">
+                            <div className="col-xl-3 col-md-4">
                               <div className="spacce">
                                 <ul>
                                   <li>
@@ -85,7 +85,7 @@ export default function Footer() {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-xl-4 col-md-4">
+                            <div className="col-xl-3 col-md-4">
                               <div className="spacce">
                                 <ul>
                                   <li>
@@ -105,7 +105,7 @@ export default function Footer() {
                                 </ul>
                               </div>
                             </div>
-                            <div className="col-xl-4 col-md-4">
+                            <div className="col-xl-6 col-md-4">
                               <div className="spacce">
                                 <ul>
                                   <li>
@@ -131,25 +131,7 @@ export default function Footer() {
                             </div>
                           </div>
                         </div>
-                        {/* <div className="col-xl-6  col-md-6">
-                                       <div className="pq-footer-block">
-                                          <h4 className="footer-title">Quick Links</h4>
-                                          <div className="menu-useful-links-container">
-                                             <ul id="menu-useful-links" className="menu">
-                                                <li><a href="about-us.html">About Us</a></li>
-                                                <li><a href="contact-us.html">Contact Us</a></li>
-                                                <li><a href="our-services.html">Our Services</a></li>
-                                                <li><a href="our-process.html">Our Process</a></li>
-                                                <li><a href="doctor-1.html">Doctors 1</a></li>
-                                                <li><a href="faq.html">FAQ</a></li>
-                                                <li><a href="our-doctor.html">Doctors 2</a></li>
-                                                <li><a href="home-visit.html">Departments</a></li>
-                                                <li><a href="make-appoinment.html">Events</a></li>
-                                                <li><a href="our-plan.html">Member</a></li>
-                                             </ul>
-                                          </div>
-                                       </div>
-                                    </div> */}
+                        
 
                         <div className="col-xl-3  col-md-3">
                           <div className="pq-footer-block">
