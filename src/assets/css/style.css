@@ -2741,8 +2741,8 @@ Footer Subscribe
 }
 
 .pq-subscribe-bg {
-  background: var(--primary-color);
-  color: var(--white-color);
+  background: #E5F6EC;
+  color: #000000 !important;
   padding: 45px;
   border-radius: 55px;
 }
@@ -2859,7 +2859,7 @@ footer#pq-footer .pq-copyright-footer .pq-copyright a:hover {
 
 
 footer#pq-footer .pq-footer-logo {
-  height: 50px;
+  height: auto;
   margin-bottom: 30px;
   width: auto;
   border-radius: 0;
@@ -2874,6 +2874,7 @@ footer#pq-footer .pq-footer-style-1 .pq-footer-social ul li {
   list-style: none;
   float: left;
   margin-right: 10px;
+  margin-bottom: 0;
 }
 
 footer#pq-footer .pq-footer-style-1 ul.menu li a:hover,
@@ -2882,8 +2883,7 @@ footer#pq-footer .pq-footer-style-1 .pq-service li a:hover {
 }
 
 footer#pq-footer .pq-footer-style-1 ul li a:hover {
-  color: white;
-  /* color: var(--primary-color); */
+  color: var(--primary-color);
 }
 
 footer#pq-footer .pq-footer-style-1 ul.menu li a,
@@ -2899,7 +2899,7 @@ footer#pq-footer .pq-footer-style-1 ul li a {
 footer#pq-footer .pq-footer-style-1 ul.menu li a,
 footer#pq-footer .pq-footer-style-1 .pq-service li a,
 footer#pq-footer .pq-footer-style-1 ul li a {
-  color: var(--white-color);
+  color:#000000;
 }
 
 
@@ -2927,7 +2927,7 @@ footer#pq-footer .pq-footer-style-1 .footer-title {
   font-size: 26px;
   line-height: 34px;
   position: relative;
-  color: var(--white-color);
+  color: #000000;
 }
 
 .pq-footer-style-1 ul {
@@ -2985,6 +2985,8 @@ footer#pq-footer .pq-footer-style-1 ul.pq-contact li i {
 
 footer#pq-footer .pq-footer-style-1 ul li {
   margin: 0 0 15px 0;
+  list-style: disc;
+  color: #7AC49B;
 }
 
 .pq-footer-recent-post .pq-footer-recent-post-info .pq-post-date {
@@ -7986,3 +7988,36 @@ i.fas.fa-quote-left {
 .pq-subscribe-from input[type="submit"] {
   color: black; /* Change button text color to black */
 }
+
+
+
+/* new css */
+
+footer i.fab {
+  width: 74%;
+  background: #7AC49B;
+  border-radius: 50%;
+  font-size: 100%;
+  height: 74%;
+  padding: 21%;
+  color: #ffffff;
+}
+
+.pq-footer-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.pq-footer-social::before,
+.pq-footer-social::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #9cc7a2;
+  /* Adjust the color as needed */
+  margin: 0 15px;
+}
+
+
