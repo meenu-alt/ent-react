@@ -7,22 +7,20 @@ export default function AboutDoctor() {
       <section className="pq-home2-about">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-6 mt-4 mt-lg-0">
+            <div className="col-lg-7 mt-4 mt-lg-0">
               <div className="pq-section pq-style-1 text-left">
                 <span className="pq-section-sub-title">About the Doctor</span>
                 <h5
                   className="pq-section-title"
-                  style={{ color: '#4C906F', fontSize: '40px' }}
+                  style={{     color: '#131313bd'
+                    , fontSize: '45px' }}
                 >
                   Dr. (Major) Rajesh Bhardwaj MBBS (AFMC), MS, DNB, DLO, DHA
-                </h5>
+                </h5> <br/>
                 <p className="pq-section-description">
-                  Dr. (Major) Bhardwaj graduated from Armed Forces Medical
-                  College (AFMC), Pune in 1982 and served in the Indian Army for
-                  15 years, where he gained vast clinical experience as an ENT
-                  specialist. He has served in the largest and busiest hospitals
-                  of the armed forces including Command Hospitals at Pune and
-                  Chandigarh and at the Army Hospital (R&R), Delhi Cantt.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.
+
+Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales 
                 </p>
               </div>
 
@@ -34,7 +32,7 @@ export default function AboutDoctor() {
               </a>
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <div className="about-us-img">
                 <img
                   src={aboutimg}

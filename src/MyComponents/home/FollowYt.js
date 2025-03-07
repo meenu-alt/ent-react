@@ -11,7 +11,7 @@ const PatientReviews = () => {
         <div className="row">
           <div className="col-lg-12">
             <div className="pq-section pq-style-1 text-center">
-              <h5 className="pq-section-title">Patient’s review</h5>
+              <h5 className="pq-section-title">PATIENT'S REVIEWS</h5>
             </div>
           </div>
           <div className="col-lg-12">

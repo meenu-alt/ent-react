@@ -13,7 +13,7 @@ const Testimonials = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="pq-section pq-style-1 text-center">
-                <h5 className="pq-section-title">Testimonials</h5>
+                <h5 className="pq-section-title"> TESTIMONIALS</h5>
               </div>
 
               <Swiper
