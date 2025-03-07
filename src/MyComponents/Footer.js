@@ -131,7 +131,6 @@ export default function Footer() {
                             </div>
                           </div>
                         </div>
-                        
 
                         <div className="col-xl-3  col-md-3">
                           <div className="pq-footer-block">
@@ -143,23 +142,20 @@ export default function Footer() {
                                     {" "}
                                     <a href="tel:+1800001658">
                                       <i className="fas fa-phone"></i>
-                                      <span> +1800-001-658</span>
+                                      <span>+91 98711 50032</span>
+                                      <br></br>
+                                      <span>+91 9205585295</span>
                                     </a>{" "}
                                   </li>
                                   <li>
                                     {" "}
                                     <a href="mailto:info@peacefulthemes.com">
-                                      <i className="fas fa-envelope"></i>
-                                      <span>info@peacefulthemes.com</span>
+                                      <i className="fas fa-map-marker"></i>
+                                      <span>
+                                        MedFirst ENT Centre D 3/14, Ground Floor
+                                        Vasant Vihar New Delhi 110057
+                                      </span>
                                     </a>
-                                  </li>
-                                  <li>
-                                    {" "}
-                                    <i className="fas fa-map-marker"></i>{" "}
-                                    <span>
-                                      Themeforest, Envato HQ 24 Fifth st., Los
-                                      Angeles, USA{" "}
-                                    </span>{" "}
                                   </li>
                                 </ul>
                               </div>
@@ -190,6 +186,19 @@ export default function Footer() {
                                 </a>
                               </li>
                             </ul>
+                          </div>
+                        </div>
+                        <div className="col-xl-12 col-md-12 ">
+                          <div className="footer-container">
+                            <p className="copyright">
+                              Copyright © 1999 - 2025 ENTMedfirst. All Rights
+                              Reserved.
+                            </p>
+                            <div className="footer-links">
+                              <a href="#">Privacy Policy</a>
+                              <span className="separator"></span>
+                              <a href="#">Terms & Conditions</a>
+                            </div>
                           </div>
                         </div>
                       </div>

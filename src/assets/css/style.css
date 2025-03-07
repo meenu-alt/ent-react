@@ -8020,4 +8020,38 @@ footer i.fab {
   margin: 0 15px;
 }
 
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%;
+  margin: 0 auto;
+  color: #333;
+}
 
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+p.copyright {
+  font-size: 15px !important;
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: #4a8666;
+  font-weight: 500;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}
+
+.separator {
+  width: 5px;
+  height: 5px;
+  background-color: #4a8666;
+  border-radius: 50%;
+}
