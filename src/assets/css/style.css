@@ -1733,9 +1733,9 @@ header#pq-header .pq-bottom-header .navbar .navbar-brand {
 }
 
 header#pq-header .pq-bottom-header .navbar .navbar-brand img {
-  height: 50px;
+  height: auto;
   border-radius: 0;
-  width: auto;
+  width: 200px;
 }
 
 /*============ Header Navbar Bar ============*/
