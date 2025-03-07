@@ -13,7 +13,7 @@ import "../assets/css/owl.carousel.min.css";
 import "../assets/css/progressbar.css";
 
 
-export default function header() {
+export default function Header() {
   return (
   <div>
     <header id="pq-header" className="pq-header-style-4 pq-has-sticky">
@@ -26,7 +26,7 @@ export default function header() {
                <div className="pq-header-top-wrapper">
                   <div className="pq-site-logo">
                      <a className="navbar-brand" href="index.html">
-                        <img className="img-fluid logo" src="images/logo.webp" alt="medicate"/>
+                        <img className="img-fluid logo" src={logo} alt="medicate"/>
                      </a>
                   </div>
                   <div className="pq-top-info-content">
