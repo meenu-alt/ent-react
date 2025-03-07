@@ -3115,7 +3115,7 @@ Section Title
 
 .pq-section.pq-style-1 .pq-section-title {
   font-weight: 600;
-  font-size: 48px;
+  font-size: 40px;
   line-height: 56px;
   z-index: 9;
   color: var(--dark-color);
@@ -7938,7 +7938,7 @@ Custom Css
 }
 
 .pq-footer-top {
-  padding: 50px 100px 0 100px !important;
+  padding: 50px 100px 30px 100px !important;
 }
 
 
@@ -7986,7 +7986,8 @@ i.fas.fa-quote-left {
 
 /* Change the color of the submit button text (optional) */
 .pq-subscribe-from input[type="submit"] {
-  color: black; /* Change button text color to black */
+  color: #ffffff;
+  border-radius: 10px;
 }
 
 
@@ -8058,4 +8059,14 @@ p.copyright {
   height: 5px;
   background-color: #4a8666;
   border-radius: 50%;
+}
+
+.pq-bg-white.pq-form-bg-white.p-5 {
+  border-radius: 45px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+section.get-in-touch {
+  padding-bottom: 75px;
 }

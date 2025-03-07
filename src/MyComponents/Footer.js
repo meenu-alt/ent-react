@@ -40,7 +40,7 @@ export default function Footer() {
                         placeholder="Enter Your Email"
                         required=""
                       />
-                      <input className="" type="submit" value="Sign up" />
+                      <input className="" type="submit" value="Subscribe" />
                     </div>
                   </form>
                   <p>We’ll never share your email with anyone else.</p>

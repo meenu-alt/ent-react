@@ -5,7 +5,8 @@ import Footer from "./MyComponents/Footer.js";
 import AboutDoctor from "./MyComponents/home/AboutDoctor.js"
 import Banner from "./MyComponents/home/Banner.js";
 import WhatWeDo from "./MyComponents/home/WhatWeDo.js";
-import Testimonials from "./MyComponents/home/Testimonials.js"; 
+import Testimonials from "./MyComponents/home/Testimonials.js";
+import PatientReviews from "./MyComponents/home/PatientReview.js";
 import FollowYt from "./MyComponents/home/FollowYt.js";
 import Blogs from "./MyComponents/home/Blogs.js";
 import GetInTouch from "./MyComponents/home/GetInTouch.js";
@@ -19,6 +20,7 @@ function App() {
       <AboutDoctor />
       <WhatWeDo />
       <Testimonials />
+      <PatientReviews />
       <FollowYt />
       <Blogs />
       <GetInTouch />

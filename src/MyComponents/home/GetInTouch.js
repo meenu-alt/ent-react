@@ -3,7 +3,7 @@ import React from "react";
 export default function GetInTouch() {
   return (
     <div>
-      <section className="pq-bg-grey">
+      <section className="get-in-touch">
         <div className="container">
           <div className="pq-bg-white pq-form-bg-white p-5">
             <div className="row align-items-center">
