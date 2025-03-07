@@ -1,35 +1,3 @@
-/*
-Template: Medicate – Health & Medical HTML Template
-Author: peacefulqode.com
-Version: 1.2
-Design and Developed by: PeacefulQode
-
-*/
-
-/*================================================
-[  Table of contents  ]
-==================================================
-
-==> Page Loader
-==> Search Button
-==> Accordion
-==> Sidebar Toggle
-==> Sticky Header
-==> Owl Carousel
-==> Progressbar
-==> Form Validation
-==> Back To Top
-==> Isotope
-==> before-after
-==> counter
-==> wow
-==> Video
-
-==================================================
-[ End table content ]
-================================================*/
-
-
 
 (function (jQuery) {
    
@@ -481,3 +449,4 @@ Design and Developed by: PeacefulQode
    });
 
 })(jQuery);
+
