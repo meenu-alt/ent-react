@@ -1,4 +1,5 @@
 import { FaHome } from "react-icons/fa";
+import { Outlet, Link } from "react-router-dom";
 
 const Breadcrumb = () => {
   return (
@@ -15,9 +16,8 @@ const Breadcrumb = () => {
               <div className="pq-breadcrumb-container mt-2">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <a href="index.html">
-                      <FaHome className="mr-2" /> Home
-                    </a>
+                    <Link to="../home" className="mr-2" > Home
+                    </Link>
                   </li>
                   <li className="breadcrumb-item active">Contact Us</li>
                 </ol>
