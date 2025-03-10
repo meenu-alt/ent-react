@@ -1,0 +1,22 @@
+.pq-counter.pq-style-2 .pq-counter-info p {
+    color: #00975e !important;
+}
+
+.pq-counter.pq-style-2 .pq-counter-info h5 {
+    font-weight: 900;
+}
+.pq-bg-primary-dark {
+    background-color: #ffffff !important;
+}
+
+.pq-counter.pq-style-2 .pq-counter-info {
+    position: relative;
+    padding-top: 0;
+}
+
+section.pq-counter-60.pq-bg-primary-dark.pq-py-2 {
+    padding: 26px 0;
+    border: 1px 0px solid gray;
+    border-top: 1px dotted;
+    border-bottom: 1px dotted;
+}
