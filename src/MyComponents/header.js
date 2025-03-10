@@ -97,47 +97,203 @@ export default function Header() {
                     <li className="menu-item current-menu-item">
                       <a href="index.html">Home</a>
                     </li>
-                    <li className="menu-item">
-                      <a href="#">Our Services</a>
+                    <li className="menu-item menu-item-has-children">
+                      <a href="https://entdelhi.com/our-services/">
+                        Our Services
+                      </a>
                       <i className="fa fa-chevron-down pq-submenu-icon"></i>
                       <ul className="sub-menu">
-                        <li className="menu-item">
-                          <a href="about-us.html">About Us</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="our-services.html">Our Services</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="our-process.html">Our Process</a>
-                        </li>
-                        <li className="menu-item">
-                          <a href="our-plan.html">Our Plans</a>
-                        </li>
-                        <li className="menu-item-has-children">
-                          <a href="#">Our Doctors</a>
-                          <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                        <li className="menu-item menu-item-has-children">
+                          <a href="#">Ear</a>
                           <ul className="sub-menu">
-                            <li className="menu-item">
-                              <a href="doctor-1.html">Doctors 1</a>
+                            <li>
+                              <a href="https://entdelhi.com/vertigo-clinic/">
+                                Vertigo Clinic
+                              </a>
                             </li>
-                            <li className="menu-item">
-                              <a href="our-doctor.html">Our Doctor Details</a>
+                            <li>
+                              <a href="https://entdelhi.com/audiology/">
+                                Audiology
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/deafness-management/">
+                                Deafness Management
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/myringoplasty/">
+                                Myringoplasty
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/otitis-externa/">
+                                Otitis Externa
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/hearing-loss/">
+                                Hearing Loss
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/stapes-surgery/">
+                                Stapes Surgery
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/myringotomy-with-grommet/">
+                                Myringotomy With Grommet
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/hearing-aids/">
+                                Hearing Aids
+                              </a>
                             </li>
                           </ul>
+                        </li>
+                        <li className="menu-item menu-item-has-children">
+                          <a href="#">Nose</a>
+                          <ul className="sub-menu">
+                            <li>
+                              <a href="https://entdelhi.com/endoscopy/">
+                                Endoscopy
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/functional-endoscopic-sinus-surgery/">
+                                Functional Endoscopic Sinus Surgery
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/?page_id=50651">
+                                Septoplasty
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/nasal-polyp-removal/">
+                                Nasal Polyp Removal
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/turbinoplasty/">
+                                Turbinoplasty
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/repair-of-csf-rhinorrhoea/">
+                                Repair of CSF Rhinorrhoea
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/epistaxis/">
+                                Epistaxis
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/palatal-injection-for-snoring/">
+                                Palatal Injection for Snoring
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li className="menu-item menu-item-has-children">
+                          <a href="#">Throat</a>
+                          <ul className="sub-menu">
+                            <li>
+                              <a href="https://entdelhi.com/speech-therapy/">
+                                Speech Therapy
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/tonsils/">
+                                Tonsils
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/vocal-cord-surgery/">
+                                Vocal Cord Surgery
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/tonsillectomy/">
+                                Tonsillectomy
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/adenoid-surgery-with-tube-insertion/">
+                                Adenoid Surgery with Tube
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/mouth-ulcers/">
+                                Mouth Ulcers
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li className="menu-item menu-item-has-children">
+                          <a href="#">Endoscopy</a>
+                          <ul className="sub-menu">
+                            <li>
+                              <a href="https://entdelhi.com/laryngoscopy/">
+                                Laryngoscopy
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/microlaryngoscopy/">
+                                Microlaryngoscopy
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li className="menu-item menu-item-has-children">
+                          <a href="#">Aesthetics</a>
+                          <ul className="sub-menu">
+                            <li>
+                              <a href="https://entdelhi.com/hair-restoration/">
+                                Hair Restoration
+                              </a>
+                            </li>
+                            <li>
+                              <a href="https://entdelhi.com/facial-aesthetics/">
+                                Facial Aesthetics
+                              </a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li className="menu-item">
+                          <a href="https://entdelhi.com/ent-surgery/">
+                            ENT Surgery
+                          </a>
+                        </li>
+                      </ul>
+                    </li>
+                    <li className="menu-item menu-item-has-children">
+                      <a href="#">About Us</a>
+                      <i className="fa fa-chevron-down pq-submenu-icon"></i>
+                      <ul className="sub-menu">
+                        <li>
+                          <a href="https://entdelhi.com/about-the-doctor/">
+                            About The Doctor
+                          </a>
+                        </li>
+                        <li>
+                          <a href="https://entdelhi.com/about-clinic/">
+                            Why Choose MedFirst
+                          </a>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item">
-                      <a href="#">About Us</a>
+                      <a href="https://entdelhi.com/blog/">Blog</a>
                     </li>
                     <li className="menu-item">
-                      <a href="#">Blog</a>
+                      <a href="https://entdelhi.com/videos/">Videos</a>
                     </li>
                     <li className="menu-item">
-                      <a href="#">Videos</a>
-                    </li>
-                    <li className="menu-item">
-                      <a href="#">Contact Us</a>
+                      <a href="https://entdelhi.com/contact-us/">Contact Us</a>
                     </li>
                   </ul>
                 </div>
