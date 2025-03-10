@@ -108,9 +108,9 @@ export default function Header() {
                           <a href="#">Ear</a>
                           <ul className="sub-menu">
                             <li>
-                              <a href="https://entdelhi.com/vertigo-clinic/">
+                              <Link to="./Vertigo-Clinic">
                                 Vertigo Clinic
-                              </a>
+                              </Link>
                             </li>
                             <li>
                               <a href="https://entdelhi.com/audiology/">
