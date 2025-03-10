@@ -74,9 +74,9 @@ export default function Header() {
           <div className="row">
             <div className="col-lg-12">
               <nav className="navbar navbar-expand-lg navbar-light">
-                <a className="navbar-brand" href="index.html">
+                <Link className="navbar-brand" to="/">
                   <img className="img-fluid logo" src={logo} alt="medicate" />
-                </a>
+                </Link>
 
                 {/* Toggle Button */}
                 <button
@@ -276,25 +276,21 @@ export default function Header() {
                       <i className="fa fa-chevron-down pq-submenu-icon"></i>
                       <ul className="sub-menu">
                         <li>
-                          <a href="https://entdelhi.com/about-the-doctor/">
-                            About The Doctor
-                          </a>
+                          <Link to="./about-the-doctor">About The Doctor</Link>
                         </li>
                         <li>
-                          <a href="https://entdelhi.com/about-clinic/">
-                            Why Choose MedFirst
-                          </a>
+                          <Link to="./about-clinic">Why Choose MedFirst</Link>
                         </li>
                       </ul>
                     </li>
                     <li className="menu-item">
-                      <a href="https://entdelhi.com/blog/">Blog</a>
+                      <Link to="./blog">Blog</Link>
                     </li>
                     <li className="menu-item">
-                      <a href="https://entdelhi.com/videos/">Videos</a>
+                      <Link to="./videos">Videos</Link>
                     </li>
                     <li className="menu-item">
-                      <a href="https://entdelhi.com/contact-us/">Contact Us</a>
+                      <Link to="./contact-us">Contact Us</Link>
                     </li>
                   </ul>
                 </div>
