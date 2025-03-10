@@ -1,0 +1,8 @@
+.pq-fancy-box.pq-style-3 {
+    padding: 10px 45px !important;
+    transition: all 0.5sease;
+    background: var(--white-color);
+    overflow: hidden;
+    position: relative;
+    border-radius: 3px;
+}
