@@ -1,5 +1,5 @@
 import React from 'react'
-import Breadcrumb from './BreadCrum'
+import Breadcrumb from './Breadcrum.js'
 
 export default function index() {
   return (

@@ -3,8 +3,7 @@ import { Outlet, Link } from "react-router-dom";
 
 const Breadcrumb = () => {
   return (
-    <div
-      className=" bg-cover bdcrum">
+    <div className=" bg-cover bdcrum">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-12">
@@ -16,7 +15,7 @@ const Breadcrumb = () => {
                       <FaHome className="mr-1" /> Home
                     </Link>
                   </li>
-                  <li className="breadcrumb-item active">Contact Us</li>
+                  <li className="breadcrumb-item active">Vertigo Clinic</li>
                 </ol>
               </div>
             </nav>

@@ -1,5 +1,5 @@
 import React from "react";
-import Breadcrum from "./breadcrum.js";
+import Breadcrum from "./Breadcrum.js";
 import ContactInfo from "./contactDetails.js";
 
 function Home() {
