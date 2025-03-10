@@ -5,7 +5,7 @@ export default function GetInTouch() {
     <div>
       <section className="get-in-touch">
         <div className="container">
-          <div className="pq-bg-white pq-form-bg-white p-5">
+          <div className="pq-bg-white pq-form-bg-white p-4">
             <div className="row align-items-center">
               <div className="col-xl-6 ps-xl-4 mt-4 mt-xl-0 pq-p-45">
                 <div className="pq-section pq-style-1 text-left">
@@ -31,7 +31,7 @@ export default function GetInTouch() {
                 </div>
               </div>
               <div className="col-xl-6 ps-xl-4 mt-4 mt-xl-0 pq-p-45">
-              <div className="pq-applyform-whitebg ">
+              <div className="pq-applyform-whitebg p-4 ">
                     <form className="pq-applyform " noValidate>
                       <div className="row">
                         <div className="col-md-12">
