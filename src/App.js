@@ -19,6 +19,7 @@ import Blog from "./MyComponents/blog/index.js"
 import VIdeos from "./MyComponents/videos/index.js"
 import ContactUs from "./MyComponents/contact-us/index.js"
 import EntSurgery from "./MyComponents/services/ent-surgery/index.js" 
+import VertigoClinic from "./MyComponents/services/ear/vertigo-clinic"
 
 
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/videos" element={<VIdeos />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/ent-surgery" element={<EntSurgery />} />
+        <Route path="/Vertigo-Clinic" element={<VertigoClinic />} />
       </Routes>
       <Footer />
     </Router>
