@@ -15,7 +15,6 @@ import "../assets/css/progressbar.css";
 
 export default function Footer() {
   return (
-    <div>
       <footer id="pq-footer">
         <div className="pq-footer-style-1">
           <div className="pq-footer-top container">
@@ -232,6 +231,5 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </div>
   );
 }

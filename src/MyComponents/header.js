@@ -6,7 +6,6 @@ import "../App.js";
 
 export default function Header() {
   return (
-    <div>
       <header id="pq-header" className="pq-header-style-3 pq-has-sticky ">
         <div className="pq-top-header">
           <div className="container">
@@ -168,6 +167,5 @@ export default function Header() {
           </div>
         </div>
       </header>
-    </div>
   );
 }
