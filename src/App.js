@@ -13,20 +13,28 @@ import Footer from "./MyComponents/Footer.js";
 // import Blogs from "./MyComponents/home/Blogs.js";
 // import GetInTouch from "./MyComponents/home/GetInTouch.js";
 import Home from "./MyComponents/home/Index.js";
-import About from "./MyComponents/about/index.js"
+import AboutTheDocktor from "./MyComponents/about-the-doctor/index.js"
+import AboutClinic from "./MyComponents/about-clinic/index.js"
+import Blog from "./MyComponents/blog/index.js"
+import VIdeos from "./MyComponents/videos/index.js"
+import ContactUs from "./MyComponents/contact-us/index.js"
 
 
 
 function App() {
   return (
     <Router>
-   <Header/>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about" element={<About />} />
-    </Routes>
-    <Footer />
-  </Router>
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about-the-doctor" element={<AboutTheDocktor />} />
+        <Route path="/about-clinic" element={<AboutClinic />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/videos" element={<VIdeos />} />
+        <Route path="/contact-us" element={<ContactUs />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
 
