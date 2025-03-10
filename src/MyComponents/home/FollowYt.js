@@ -4,8 +4,8 @@ import "../../assets/css/bootstrap.min.css";
 const videos = [
   {
     title: "Difference Between Migraine And Sinus Headache",
-    url: "https://www.youtube.com/embed/LRCVizaB4-w",
-    thumbnail: "https://img.youtube.com/vi/LRCVizaB4-w/0.jpg",
+    url: "https://www.youtube.com/embed/H5sVTYpJPQs",
+    thumbnail: "https://img.youtube.com/vi/H5sVTYpJPQs/0.jpg",
   },
   {
     title: "What Is Septoplasty Surgery?",
@@ -37,56 +37,57 @@ const videos = [
 const YouTubeSection = () => {
   const [selectedVideo, setSelectedVideo] = useState(videos[0]);
 
-    return (
-      <section className="followyt">
-        <div className="container">
-          <h5 className="text-center mb-3 pq-section-title">
-            Follow Us On YouTube
-          </h5>
-          <div className="row">
-            {/* Left Side - Video Player */}
-            <div className="col-md-7">
-              <div className="card shadow-lg">
-                <iframe
-                  width="100%"
-                  height="400px"
-                  src={selectedVideo.url}
-                  title="YouTube video player"
-                  frameBorder="0"
-                  allowFullScreen></iframe>
-                <div className="p-3">
-                  <h5 className="text-success">{selectedVideo.title}</h5>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Side - Video List */}
-            <div className="col-md-5">
-              <div
-                className="list-group overflow-auto card"
-                style={{ maxHeight: "466px" }}>
-                {videos.map((video, index) => (
-                  <button
-                    key={index}
-                    className={`list-group-item list-group-item-action d-flex align-items-center ${
-                      selectedVideo.url === video.url ? "active" : ""
-                    }`}
-                    onClick={() => setSelectedVideo(video)}>
-                    <img
-                      src={video.thumbnail}
-                      alt={video.title}
-                      className="img-thumbnail me-2"
-                      style={{ width: "80px", height: "65px" }}
-                    />
-                    {video.title}
-                  </button>
-                ))}
+  return (
+    <section className="followyt">
+      <div className="container ">
+        
+        <h5 className="text-center mb-3 pq-section-title">
+          Follow Us On YouTube
+        </h5>
+        <div className="row">
+          {/* Left Side - Video Player */}
+          <div className="col-md-7">
+            <div className="card shadow-lg">
+              <iframe
+                width="100%"
+                height="400px"
+                src={selectedVideo.url}
+                title="YouTube video player"
+                frameBorder="0"
+                allowFullScreen></iframe>
+              <div className="p-3">
+                <h5 className="text-success">{selectedVideo.title}</h5>
               </div>
             </div>
           </div>
+
+          {/* Right Side - Video List */}
+          <div className="col-md-5">
+            <div
+              className="list-group overflow-auto card"
+              style={{ maxHeight: "466px" }}>
+              {videos.map((video, index) => (
+                <button
+                  key={index}
+                  className={`list-group-item list-group-item-action d-flex align-items-center ${
+                    selectedVideo.url === video.url ? "active" : ""
+                  }`}
+                  onClick={() => setSelectedVideo(video)}>
+                  <img
+                    src={video.thumbnail}
+                    alt={video.title}
+                    className="img-thumbnail me-2"
+                    style={{ width: "80px", height: "65px" }}
+                  />
+                  {video.title}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
-      </section>
-    );
+      </div>
+    </section>
+  );
 };
 
 export default YouTubeSection;

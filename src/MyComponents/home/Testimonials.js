@@ -23,7 +23,7 @@ const Testimonials = () => {
                 breakpoints={{
                   320: { slidesPerView: 1 },
                   768: { slidesPerView: 3 },
-                  1024: { slidesPerView: 4 },
+                  1024: { slidesPerView: 3 },
                 }}
                 loop={true}
                 autoplay={{ delay: 3000 }}>

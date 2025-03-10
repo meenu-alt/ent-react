@@ -5,6 +5,16 @@ import "swiper/css";
 import "swiper/css/navigation";
 
 const PatientReviews = () => {
+  const videoLinks = [
+    "2VR2BCE1Fa4",
+    "6Uhq6o30pUA",
+    "H5sVTYpJPQs",
+    "KwY_wKROmVs",
+    "MgtkibBG8N8",
+    "H5sVTYpJPQs",
+    "64bFLbBI-Dw",
+  ];
+
   return (
     <section className="our-work">
       <div className="container">
@@ -27,15 +37,7 @@ const PatientReviews = () => {
               }}
               loop={true}
               autoplay={{ delay: 3000 }}>
-              {[
-                "VIDEO_ID1",
-                "VIDEO_ID2",
-                "VIDEO_ID3",
-                "VIDEO_ID4",
-                "VIDEO_ID5",
-                "VIDEO_ID6",
-                "VIDEO_ID7",
-              ].map((videoId, index) => (
+              {videoLinks.map((videoId, index) => (
                 <SwiperSlide key={index}>
                   <div className="pq-portfoliobox pq-style-1">
                     <div className="pq-portfolio-block">

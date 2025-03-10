@@ -21,7 +21,7 @@ export default function Footer() {
             <div className="row align-items-center">
               <div className="col-lg-12">
                 <div className="pq-subscribe-details">
-                  <h5>Subs To News Letter</h5>
+                  <h5 className="pq-section-title">Subs To News Letter</h5>
                   <p>
                     Consetetur dolor sit amet, consetetur sadipscing elitr, sed
                     diam nonumy eirmod tempor invidunt ut labore et dolore magna
