@@ -38,7 +38,7 @@ const FAQ = () => {
           </div>
 
           {[0, 1].map((col) => (
-            <div key={col} className="col-xl-6 mt-xl-0 mt-5 ps-xl-3">
+            <div key={col} className=" faq-res col-xl-6 mt-xl-0 mt-5 ps-xl-3">
               <div className="pq-accordion-block mt-4">
                 {faqs.map((faq, index) => (
                   <div key={index} className="pq-accordion-box">

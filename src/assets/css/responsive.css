@@ -1742,8 +1742,12 @@
 
 @media (max-width:767px) {
 
-    section {
+    /* section {
         padding: 60px 0 !important;
+    } */
+   
+    section {
+        padding: 35px 0 !important;
     }
 
     header#pq-header.pq-header-default .pq-top-header,
@@ -2143,8 +2147,11 @@
         margin-bottom: 0;
     }
 
-    .pq-home2-about {
+    /* .pq-home2-about {
         padding: 60px 0px !important;
+    } */
+    .pq-home2-about {
+        padding: 8px 0px !important;
     }
 
     .pq-process-pb {
@@ -2291,6 +2298,9 @@
 
     .medical-skills .pq-padding-arround {
         padding: 60px 15px;
+    }
+    .pq-home2-about .contentr-button {
+        padding-bottom: 10px !important;
     }
 }
 
@@ -2550,8 +2560,12 @@
         margin-top: 20px;
     }
 
-    .pq-testimonial-box.pq-style-1 {
+    /* .pq-testimonial-box.pq-style-1 {
         padding: 15px;
+    } */
+    .pq-testimonial-box.pq-style-1 {
+        padding: 37px;
+        text-align: justify;
     }
 
     .pq-form-counter {

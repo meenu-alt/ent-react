@@ -6,7 +6,7 @@ export default function AboutDoctor() {
       <section className="pq-home2-about">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-7 mt-4 mt-lg-0">
+            <div className="col-lg-7 mt-4 mt-lg-0 contentr-button">
               <div className="pq-section pq-style-1 text-left">
                 <span className="pq-section-sub-title">About the Doctor</span>
                 <h5

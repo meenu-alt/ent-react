@@ -40,9 +40,9 @@ const YouTubeSection = () => {
     return (
       <section className="followyt">
         <div className="container">
-          <h3 className="text-center mb-3 pq-section-title">
+          <h5 className="text-center mb-3 pq-section-title">
             Follow Us On YouTube
-          </h3>
+          </h5>
           <div className="row">
             {/* Left Side - Video Player */}
             <div className="col-md-7">
