@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Header from "./MyComponents/Header.js"; //Ensure the correct path
+import Header from "./MyComponents/Header.js"; 
 import Footer from "./MyComponents/Footer.js";
 // import AboutDoctor from "./MyComponents/home/AboutDoctor.js"
 // import Banner from "./MyComponents/home/Banner.js";
@@ -13,8 +13,8 @@ import Footer from "./MyComponents/Footer.js";
 // import Blogs from "./MyComponents/home/Blogs.js";
 // import GetInTouch from "./MyComponents/home/GetInTouch.js";
 import Home from "./MyComponents/home/Index.js";
-import AboutTheDocktor from "./MyComponents/about-the-doctor/index.js"
-import AboutClinic from "./MyComponents/about-clinic/index.js"
+import AboutTheDocktor from "./MyComponents/about/about-the-doctor/index.js"
+import AboutClinic from "./MyComponents/about/about-clinic/index.js"
 import Blog from "./MyComponents/blog/index.js"
 import VIdeos from "./MyComponents/videos/index.js"
 import ContactUs from "./MyComponents/contact-us/index.js"
