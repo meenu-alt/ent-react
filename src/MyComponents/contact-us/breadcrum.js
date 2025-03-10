@@ -16,7 +16,7 @@ const Breadcrumb = () => {
               <div className="pq-breadcrumb-container mt-2">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <Link to="../home" className="mr-2">
+                    <Link to="/" className="mr-2">
                       <FaHome className="mr-1" /> Home
                     </Link>
                   </li>
