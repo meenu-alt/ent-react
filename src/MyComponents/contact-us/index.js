@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
+import Breadcrum from "./breadcrum.js";
 
-
-export default function index() {
+function Home() {
   return (
     <div>
-        <main>
-            <page/>
-            ersdgfhvjbnm,gnhgvnoh9gyguasvbnmg nbiufhbdn v
-        </main>
+      <main>
+        <Breadcrum />
+      </main>
     </div>
-  )
+  );
 }
+
+export default Home;
