@@ -4,15 +4,11 @@ import { Outlet, Link } from "react-router-dom";
 const Breadcrumb = () => {
   return (
     <div
-      className="pq-breadcrumb bg-cover"
-      style={{ backgroundImage: "url('images/breadcrumb.jpg')" }}>
+      className=" bg-cover bdcrum">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-12">
             <nav aria-label="breadcrumb">
-              <div className="pq-breadcrumb-title">
-                <h2>Contact Us</h2>
-              </div>
               <div className="pq-breadcrumb-container mt-2">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
