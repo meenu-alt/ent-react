@@ -12,8 +12,8 @@ body {
   --secondary-color: #666666;
   --grey-color: #f4f6f9;
   --white-color: #ffffff;
-  --body-fonts: 'Teachers',sans-serif !important;
-  --title-fonts: 'Teachers',sans-serif !important;
+  --body-fonts: 'Teachers', sans-serif !important;
+  --title-fonts: 'Teachers', sans-serif !important;
 }
 
 ::-moz-selection {
@@ -582,9 +582,7 @@ Button Core
   border: none;
   display: inline-block;
   overflow: hidden;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
+  border-radius: 5px;
 }
 
 .pq-button .pq-button-block {
@@ -1688,7 +1686,7 @@ header#pq-header .pq-top-header .pq-header-contact ul li a {
   font-family: var(--title-fonts);
   font-weight: 500;
   font-size: 16px;
-} 
+}
 
 header#pq-header .pq-top-header .pq-header-contact ul li a:hover {
   color: var(--white-color);
@@ -2745,7 +2743,7 @@ Footer Subscribe
   background: #E5F6EC;
   color: #000000 !important;
   padding: 45px;
-  border-radius: 55px;
+  border-radius: 20px;
 }
 
 .pq-subscribe-block {
@@ -2785,6 +2783,7 @@ Footer Subscribe
   color: #ffffff;
   margin-left: 30px;
 }
+
 .pq-subscribe-from input[type="submit"]:hover {
   background: var(--dark-color);
   color: var(--white-color);
@@ -2832,7 +2831,7 @@ footer#pq-footer .pq-footer-style-1 {
 footer#pq-footer .pq-footer-top {
   padding: 70px 0 0;
   position: relative;
-  z-index: 9; 
+  z-index: 9;
 }
 
 footer#pq-footer .pq-copyright-footer {
@@ -2899,7 +2898,7 @@ footer#pq-footer .pq-footer-style-1 ul li a {
 footer#pq-footer .pq-footer-style-1 ul.menu li a,
 footer#pq-footer .pq-footer-style-1 .pq-service li a,
 footer#pq-footer .pq-footer-style-1 ul li a {
-  color:#000000;
+  color: #000000;
 }
 
 
@@ -7959,7 +7958,8 @@ Custom Css
   width: 100%;
   border-radius: 10px;
 }
-.pq-footer-top p{
+
+.pq-footer-top p {
   color: #000000;
 }
 
@@ -7973,21 +7973,25 @@ i.fas.fa-quote-left {
   z-index: 1;
   opacity: 0.1;
 }
+
 /* Change the color of the input text */
 .pq-subscribe-from input[type="email"] {
-  color: black; /* Change text color to black */
+  color: black;
+  /* Change text color to black */
 }
 
 /* Change the color of the placeholder */
 .pq-subscribe-from input[type="email"]::placeholder {
-  color: black; /* Change placeholder color to black */
-  opacity: 1; /* Ensure full visibility */
+  color: black;
+  /* Change placeholder color to black */
+  opacity: 1;
+  /* Ensure full visibility */
 }
 
 /* Change the color of the submit button text (optional) */
 .pq-subscribe-from input[type="submit"] {
   color: #ffffff;
-  border-radius: 10px;
+  border-radius: 5px;
 }
 
 
@@ -8062,7 +8066,7 @@ p.copyright {
 }
 
 .pq-bg-white.pq-form-bg-white.p-5 {
-  border-radius: 45px;
+  border-radius: 20px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
