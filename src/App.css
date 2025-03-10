@@ -60,3 +60,15 @@ h5{
   color: rgba(19, 19, 19, 0.74) !important;
 }
 /* swiper tistimonials */
+
+
+/* new css */
+
+.pq-breadcrumb-container.mt-2 {
+  margin: 0 !important;
+}
+
+.bg-cover.bdcrum {
+  padding: 22px 0 !important;
+  background: #f0fff1;
+}
