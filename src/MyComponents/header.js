@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "../assets/images/logo-ent.png";
 import "../App.css";
+import { Outlet, Link } from "react-router-dom";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -95,7 +96,7 @@ export default function Header() {
                   id="navbarSupportedContent">
                   <ul id="pq-main-menu" className="navbar-nav ml-auto">
                     <li className="menu-item current-menu-item">
-                      <a href="index.html">Home</a>
+                      <Link to="/">Home</Link>
                     </li>
                     <li className="menu-item menu-item-has-children">
                       <a href="https://entdelhi.com/our-services/">
@@ -271,7 +272,7 @@ export default function Header() {
                       </ul>
                     </li>
                     <li className="menu-item menu-item-has-children">
-                      <a href="#">About Us</a>
+                      <Link to="./about">About</Link>
                       <i className="fa fa-chevron-down pq-submenu-icon"></i>
                       <ul className="sub-menu">
                         <li>
