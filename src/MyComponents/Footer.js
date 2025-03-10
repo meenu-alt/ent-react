@@ -15,7 +15,6 @@ import "../assets/css/progressbar.css";
 
 export default function Footer() {
   return (
-    <div>
       <footer id="pq-footer">
         <div className="pq-footer-style-1">
           <div className="pq-footer-top container">
@@ -150,6 +149,15 @@ export default function Footer() {
                                   <li>
                                     {" "}
                                     <a href="mailto:info@peacefulthemes.com">
+                                      <i class="fa-solid fa-clock"></i>
+                                      <span>
+                                        Monday To Saturday<br></br>Sunday closed
+                                      </span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    {" "}
+                                    <a href="mailto:info@peacefulthemes.com">
                                       <i className="fas fa-map-marker"></i>
                                       <span>
                                         MedFirst ENT Centre D 3/14, Ground Floor
@@ -223,6 +231,5 @@ export default function Footer() {
           </div>
         </div>
       </footer>
-    </div>
   );
 }

@@ -7,7 +7,6 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const Testimonials = () => {
   return (
-    <div>
       <section className="testimonial pt-lg-0">
         <div className="container">
           <div className="row">
@@ -74,7 +73,6 @@ const Testimonials = () => {
           </div>
         </div>
       </section>
-    </div>
   );
 };
 

@@ -3,7 +3,6 @@ import aboutimg from "../../assets/images/About-us/2.jpg";
 
 export default function AboutDoctor() {
   return (
-    <div>
       <section className="pq-home2-about">
         <div className="container">
           <div className="row align-items-center">
@@ -44,7 +43,6 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
           </div>
         </div>
       </section>
-    </div>
   );
 }
 
