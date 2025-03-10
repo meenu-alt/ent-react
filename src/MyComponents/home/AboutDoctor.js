@@ -26,7 +26,7 @@ Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
               <a className="pq-button pq-button-flat" href="about-us.html">
                 <div className="pq-button-block">
                   <span className="pq-button-text">Read More</span>{' '}
-                  <i className="ion ion-plus-round"></i>
+                  <i className="fa-solid fa-arrow-right-long"></i>
                 </div>
               </a>
             </div>
