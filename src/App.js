@@ -18,6 +18,7 @@ import AboutClinic from "./MyComponents/about-clinic/index.js"
 import Blog from "./MyComponents/blog/index.js"
 import VIdeos from "./MyComponents/videos/index.js"
 import ContactUs from "./MyComponents/contact-us/index.js"
+import EntSurgery from "./MyComponents/services/ent-surgery/index.js" 
 
 
 
@@ -32,6 +33,7 @@ function App() {
         <Route path="/blog" element={<Blog />} />
         <Route path="/videos" element={<VIdeos />} />
         <Route path="/contact-us" element={<ContactUs />} />
+        <Route path="/ent-surgery" element={<EntSurgery />} />
       </Routes>
       <Footer />
     </Router>

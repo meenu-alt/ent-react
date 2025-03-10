@@ -265,9 +265,9 @@ export default function Header() {
                           </ul>
                         </li>
                         <li className="menu-item">
-                          <a href="https://entdelhi.com/ent-surgery/">
+                          <Link to="./ent-surgery">
                             ENT Surgery
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </li>
