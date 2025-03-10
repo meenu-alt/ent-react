@@ -1,4 +1,9 @@
-import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import {
+  FaMapMarkerAlt,
+  FaPhoneAlt,
+  FaEnvelope,
+  FaClock,
+} from "react-icons/fa";
 
 const ContactInfo = () => {
   return (
@@ -15,7 +20,7 @@ const ContactInfo = () => {
               <div className="pq-contact-box-info">
                 <h4 className="pq-contact-box-title">Our Location</h4>
                 <p className="pq-contact-box-description">
-                  The Queen's Walk, Bishop's, London SE1 7PB, United Kingdom.
+                  D 3/14, Ground Floor Vasant Vihar New Delhi 110 057
                 </p>
               </div>
             </div>
@@ -31,8 +36,9 @@ const ContactInfo = () => {
               <div className="pq-contact-box-info">
                 <h4 className="pq-contact-box-title">Our Contact</h4>
                 <p className="pq-contact-box-description">
-                  + (567) 1234-567-8900
-                  <br />+ (567) 1234-567-8901
+                  +91 98711 50032
+                  <br />
+                  +91 92055 85295
                 </p>
               </div>
             </div>
@@ -42,15 +48,20 @@ const ContactInfo = () => {
             <div className="pq-contact-box">
               <div className="pq-contact-box-icon">
                 <div className="icon animation-grow">
-                  <FaEnvelope />
+                  <FaClock />
                 </div>
               </div>
               <div className="pq-contact-box-info">
-                <h4 className="pq-contact-box-title">Mail Us</h4>
+                <h4 className="pq-contact-box-title">Hour of Operation</h4>
                 <p className="pq-contact-box-description">
-                  info@peacefulthemes.com
+                  Monday To Saturday
                   <br />
-                  info2@peacefulthemes.com
+                  <strong>Morning Timing:</strong> 09:30 AM to 12:00 PM
+                  <br />
+                  <strong>Evening Timings:</strong> 4:30 PM to 7:00 PM
+                  <br />
+                  <strong>Thursday:</strong> Morning Clinic Closed, Evening 4:30
+                  PM to 7:00 PM
                 </p>
               </div>
             </div>
