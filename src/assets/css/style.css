@@ -1892,7 +1892,7 @@ header#pq-header .pq-bottom-header .navbar .navbar-nav li .sub-menu li.menu-item
 /*============ Navigation search ============*/
 header#pq-header .pq-menu-search-block {
   position: relative;
-  margin: 0 0 0 30px;
+  margin: 0 20px;
 }
 
 header#pq-header .pq-menu-search-block a {
