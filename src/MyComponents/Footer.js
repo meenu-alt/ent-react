@@ -150,6 +150,15 @@ export default function Footer() {
                                   <li>
                                     {" "}
                                     <a href="mailto:info@peacefulthemes.com">
+                                      <i class="fa-solid fa-clock"></i>
+                                      <span>
+                                        Monday To Saturday<br></br>Sunday closed
+                                      </span>
+                                    </a>
+                                  </li>
+                                  <li>
+                                    {" "}
+                                    <a href="mailto:info@peacefulthemes.com">
                                       <i className="fas fa-map-marker"></i>
                                       <span>
                                         MedFirst ENT Centre D 3/14, Ground Floor
